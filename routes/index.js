@@ -3,4 +3,4 @@ const router = express.Router();
 
 router.get('/', (req, res)=> res.render('Welcome')) ;
 
-module.exports = route
+module.exports = router;
